@@ -43,6 +43,12 @@ grandes telas: acima de 1200
         float: left;
         width: 50%;
     }
+    #formulario > p{
+        font-size: 1.2em;
+    }
+    #formulario > h1 {
+        font-size: 1.5em;
+    }
 }
     
 @media screen and (min-width:1200px) {
@@ -59,5 +65,12 @@ grandes telas: acima de 1200
     #login > #formulario{
         float: left;
         width: 50%;
+    }
+
+    #formulario > h1 {
+        font-size: 2em;
+    }
+    #formulario > p{
+        font-size: 1.2em;
     }
 }
