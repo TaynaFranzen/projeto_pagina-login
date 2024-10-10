@@ -12,9 +12,12 @@ grandes telas: acima de 1200
     body{
         background-image: linear-gradient(to top, #8437b8 , #678CDC);
     }
+
     section#login{
        width: 80vw;
+       height: 305px;
     }
+
     #login > #imagem{
         float: left;
         width:30%;
@@ -27,11 +30,13 @@ grandes telas: acima de 1200
     }
 }
 
-@media screen and (min-width:992px) and (max-width:1200px) {
+@media screen and (min-width:992px) {
     body{
         background-image: linear-gradient(to top, #8437b8 , #678CDC);}
+
     section#login{
-        width: 900px;
+        width: 950px;
+        height: 350px;
     }
     #login > #imagem{
         float: right;
@@ -45,32 +50,10 @@ grandes telas: acima de 1200
     }
     #formulario > p{
         font-size: 1.2em;
+        margin:20px 0px;
     }
-    #formulario > h1 {
-        font-size: 1.5em;
-    }
-}
-    
-@media screen and (min-width:1200px) {
-    body{
-        background-image: linear-gradient(to top, #8437b8 , #678CDC);}
-    section#login{
-        min-width: 1050px;
-    }
-    #login > #imagem{
-        float: right;
-        width: 50%;
-        height: 100%;
-    }
-    #login > #formulario{
-        float: left;
-        width: 50%;
-    }
-
     #formulario > h1 {
         font-size: 2em;
     }
-    #formulario > p{
-        font-size: 1.2em;
-    }
 }
+    

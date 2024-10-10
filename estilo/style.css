@@ -23,9 +23,8 @@ main{
     position: absolute;
     top:50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     background-color: white;
-    height: 515px;
+    height: 520px;
     width: 280px;
     border-radius: 20px;
     overflow: hidden;
@@ -33,6 +32,7 @@ main{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.393);
     transition: width .3s , height .3s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 #imagem{
@@ -54,21 +54,43 @@ main{
 }
 #formulario > p{
     padding: 3px;
-    font-size: 0.8em;
+    font-size: 0.9em;
+    text-align: center;
 }
 
 form > div.campo{
     background-color: #8437b8;
     display: block;
     width: 100%;
-    height: 40%;
-    padding: 5px;
+    height: 100%;
     border-radius: 5px;
     margin: 5px 0px;
 }
 
 form label{
     display: none;
+}
+
+div.campo > i {
+    color: white;
+    font-size: 2em;
+    width:40px;
+    padding:7px;
+}
+
+div.campo > input:focus-within{
+    background-color: white;
+}
+
+div.campo > input {
+   
+    background-color: #96b7ff;
+    font-size: 1em;
+    width: calc(100% - 16%);
+    border: 0px;
+    border-radius: 8px;
+    padding: 9px;
+    transform: translateY(-6px);
 }
 
 form > input[type=submit] {
